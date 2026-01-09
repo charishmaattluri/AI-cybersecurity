@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Threat Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+    <div class="nav-brand">
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <div class="nav-title">AI Cybersecurity Agent</div>
+    </div>
+</div>
+
+<div class="container">
+
+    <h2>Threat Analysis Report</h2>
+    <p class="subtitle">
+        AI-generated risk assessment based on behavioral indicators
+    </p>
+
+    <p class="timestamp" id="time"></p>
+
+
+    <!-- TWO COLUMN GRID -->
+    <div class="grid">
+
+        <div class="card blue">
+            <h3>Risk Level</h3>
+            <p id="riskLevel">Loading...</p>
+        </div>
+
+        <div class="card purple">
+            <h3>Risk Score</h3>
+            <p id="riskScore">Loading...</p>
+        </div>
+
+        <div class="card dark full">
+            <h3>Explanation</h3>
+            <p id="explanation">Loading...</p>
+        </div>
+
+        <div class="card red full">
+            <h3>Recommended Action</h3>
+            <p id="action">Loading...</p>
+        </div>
+
+    </div>
+
+    <div class="report-actions">
+    <button onclick="downloadReport()">⬇ Download Report</button>
+    <button class="secondary" onclick="goBack()">← Back</button>
+</div>
+
+
+<div class="footer">
+    AI Cybersecurity Agent 
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

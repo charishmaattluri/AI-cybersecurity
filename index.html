@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Cybersecurity Agent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+    <div class="nav-brand">
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <div class="nav-title">AI Cybersecurity Agent</div>
+    </div>
+</div>
+
+
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Protect Digital Identities with AI</h1>
+    <p>
+        An AI-powered cybersecurity assistant that detects phishing
+        and insider threats using behavioral analysis.
+
+    </p>
+    <img src="images/security.png" class="hero-img" alt="Cybersecurity">
+</div>
+ 
+<div class="section-title">Start Threat Analysis</div>
+
+<div class="divider"></div>
+
+<!-- MAIN -->
+<div class="actions">
+
+    <select id="scenario">
+        <option value="phishing">Phishing Attack</option>
+        <option value="insider">Insider Threat</option>
+    </select>
+
+    <div class="helper-text">
+        Select a threat scenario to analyze potential risk
+    </div>
+
+    <button id="analyzeBtn" onclick="goToResult()">
+    🔍 Analyze Threat
+</button>
+
+
+</div>
+
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    Built for Microsoft Hackathon · Cybersecurity Domain
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
